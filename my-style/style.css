@@ -1,0 +1,339 @@
+.all2 {
+  background-color: rgb(255, 255, 255)
+}
+.section1{
+    background-color: rgb(66, 78, 102);
+    
+  }
+  .section2{
+    background-color: rgb(255, 255, 255);
+   
+  }
+  .social-block{
+    float : right;
+    padding-right: 50px;
+  }
+  .material-icons {vertical-align:-14%}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+ 
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  li b {
+    display: block;
+    color: rgb(78, 70, 70);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  
+  
+  .texte-orange{
+    color:orange;
+}
+.fa-search{}
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-tumblr {
+    
+    color: white;
+  }
+  .fa-pinterest {
+    
+    color: white;
+  }
+  .fa-facebook {
+    
+    color: white;
+  }
+  .fa-twitter {
+   
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .section2.navbar.ul#search-bar {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+      }
+  
+  .logo{
+    width: 120px;
+    height:50px
+}
+ 
+
+ 
+
+  .ul#menu {
+    margin: 0; padding: 0;
+  }
+  .ul#menu li {
+    list-style: none;
+    margin: 0; padding: 0;
+  }
+  .mySlides {display:none;
+}
+.index2.h1{
+    background-color: #dd4b39
+}
+.index2.h6{
+    background-color: #dd4b39
+}
+.section4{
+    background-color: rgb(66, 78, 102);
+}
+
+.colorw {
+  color: aliceblue
+}
+*
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p2.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+p3.serif {
+  font-family: "Times New Roman", Times, serif;
+ 
+}
+
+.colorw{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+
+}
+.topnav {
+  overflow: hidden;
+  
+}
+
+.topnav b {
+  float: left;
+  color: #050404;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav b:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav b.active {
+  background-color: #4CAF50;
+  color: white;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.searchBox {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform:  translate(-50%,50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 4px;
+
+}
+
+.searchBox:hover > .searchInput {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+background: white;
+color : #2f3640;
+}
+
+.searchButton {
+  color: #2f3640;
+  float: right;
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.searchInput {
+  border:none;
+  background: none;
+  outline:none;
+  float:left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+  width: 150px;
+  padding: 0 6px;
+}
+}
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.tinted-image {
+  
+  width: 1320px;
+  height: 400px;
+ 
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(66, 78, 102, 0.74), 
+      rgba(19, 17, 17, 0.45)
+    ),
+    /* bottom, image */
+    url(https://www.technocrazed.com/wp-content/uploads/2015/12/London-wallpaper-3.jpg);
+  
+}
+.holidaystypes{
+ padding-left: 350px
+}
